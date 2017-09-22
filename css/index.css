@@ -2,11 +2,14 @@
 * {
     margin: 0;
 }
-@media screen and (min-width:500px){
+@media screen and (min-width:700px){
 body {
     max-width: 900px;
     margin: 0 auto;
     font-family: 'Wendy One', sans-serif;
+    /*background-image: : url(../img/body.jpg);*/
+    /*background-attachment:fixed;*/
+    /*background-size: cover;*/
 
 }
 
@@ -139,7 +142,7 @@ footer{
     align-items: center;
 }
 }
-@media screen and (max-width:500px)  {
+@media screen and (max-width:700px)  {
     body {
     max-width: 300px;
     margin: 0 auto;
