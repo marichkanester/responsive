@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+* {
+    margin: 0;
+}
+@media screen and (min-width:500px){
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Wendy One', sans-serif;
+
+}
+
+header {
+    background-image: url(../img/gray-header.jpg);
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    font-family: 'Wendy One', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 15px
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.summary p {
+    width: 48%;
+    background-image: url(../img/gray2.jpg);
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+       flex-wrap: wrap;
+}
+
+.preamble {
+    background-image: url(../img/gray-text.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.preamble h3, .preamble p {
+    justify-content: center;
+    display: flex;
+    height: 50px;
+
+}
+
+
+.otherPart {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.otherPart #zen-supporting {
+    width: 70%;
+    background-image: url(../img/gray4.jpg);
+    background-size: cover;
+    height: 1700px;
+
+}
+
+.otherPart #zen-supporting h3,.otherPart #zen-supporting p{
+    justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+.benefits h3, .benefits p {
+        justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+.requirements h3, .requirements p {
+        justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+aside{
+    margin: 10px;
+    background-image: url(../img/aside.jpg);
+    background-size: cover;
+    height: 1700px;
+            align-items:center;    
+}
+
+.wrapper{
+    margin: 20px 0 20px 10px;
+}
+
+.design-selection{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+        margin: 20px 0 20px 10px;
+}
+.design-archives
+{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+        margin: 20px 0 20px 10px;
+}
+.zen-resources{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+        margin: 20px 0 20px 10px;
+}
+li{
+    list-style: none;
+    margin: 20px 0 20px 0;
+border-bottom:2px solid gray;
+
+}
+footer{
+    background-image: url(../img/footer.jpg);
+    height: 100px;
+    background-size: contain;
+     justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+}
+@media screen and (max-width:500px)  {
+    body {
+    max-width: 300px;
+    margin: 0 auto;
+font-size: 5px;
+
+}
+     header {
+    background-image: url(../img/gray-header.jpg);
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    font-family: 'Wendy One', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+         font-size: 15px;
+}
+     header h2 {
+    font-size: 9px
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    
+}
+     .summary p {
+    width: 48%;
+    background-image: url(../img/gray2.jpg);
+    background-size: cover;
+    height: 90px;
+         width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+       flex-wrap: wrap;
+         font-size: 12px;
+         border: 2px solid black;
+}
+.preamble {
+    background-image: url(../img/gray-text.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.preamble h3, .preamble p {
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    font-size: 10px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+     .otherPart {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+.otherPart #zen-supporting {
+    width: 100%;
+    background-image: url(../img/gray4.jpg);
+    background-size: cover;
+    height: 1500px;
+
+}
+
+.otherPart #zen-supporting h3,.otherPart #zen-supporting p{
+    justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+    font-size: 11px;
+}
+.benefits h3, .benefits p {
+        justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+.requirements h3, .requirements p {
+        justify-content: center;
+    display: flex;
+flex-direction:row;
+   flex-wrap: wrap;
+    margin: 10px 10px 30px 10px;
+}
+aside{
+    margin: 10px;
+    background-image: url(../img/aside.jpg);
+    background-size: cover;
+    height: 300px;
+            align-items:center;    
+}
+
+.wrapper{
+    margin: 20px 0 20px 10px;
+    font-size: 15px;
+}
+
+.design-selection{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+
+}
+.design-archives
+{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+}
+.zen-resources{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+
+}
+li{
+    list-style: none;
+font-size: 11px;
+border-bottom:2px solid gray;
+
+}
+footer{
+    background-image: url(../img/footer.jpg);
+    height: 100px;
+    background-size: cover;
+     justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+}
